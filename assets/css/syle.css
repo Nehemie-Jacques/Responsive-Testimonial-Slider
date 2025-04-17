@@ -21,6 +21,7 @@
   max-width: 900px;
   width: 100%;
   padding: 50px 0;
+  overflow: hidden;
 }
 
 .testimonial .image {
