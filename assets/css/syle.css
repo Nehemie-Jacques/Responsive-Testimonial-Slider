@@ -69,3 +69,39 @@
     font-weight: 400;
     color: #333;
   }
+
+  .nav-btn {
+    height: 40px;
+    width: 40px;
+    background-color:  rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    transform: translateY(30px);
+    transition: 0.2s;
+  }
+
+  .nav-btn:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+  .nav-btn::after,
+  .nav-btn::before {
+    font-size: 20px;
+    color: #fff;
+  }
+
+  .swiper-pagination-bullet {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+
+  .swiper-pagination-bullet-active {
+    background-color: #4070f4;
+  }
+
+  @media screen and (max-width: 768px) {
+    .slide p {
+      padding: 0 20px;
+    }
+
+    .nav-btn{
+      display: none;
+    }
+  }
